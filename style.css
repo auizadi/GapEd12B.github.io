@@ -106,3 +106,64 @@ button {
   padding: 0px 40%;
   cursor: pointer;
 }
+
+.testimoni {
+  display: flex;
+  padding: 40px 0px;
+  text-align: center;
+  justify-content: center;
+  color: #434343;
+  align-items: center;
+
+}
+
+.inner{
+  max-width: 1200px ;
+  padding: 0px 20px;
+}
+
+.border{
+  width: 160px;
+  height: 5px;
+  margin: 26px auto;
+  background: #029afa;
+
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col {
+   max-width: 25%;
+   max-width: border-box;
+   padding: 15px;
+   flex:25% ;
+   padding: 15px;
+}
+
+.isitesti{
+  padding: 30px ;
+  background:#d4eeff;
+}
+
+.isitesti img{
+  width: 100px;
+  height: 100px;
+  border-radius:50%;
+}
+
+.name{
+  text-transform: uppercase;
+  margin: 20px 0px;
+  font-size: 20px;
+}
+
+@media screen and (max-width:600px){
+  .col{
+    flex: 100%;
+    max-width: 100%;
+  }
+}
