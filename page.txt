@@ -1,0 +1,24 @@
+Halaman-Halaman website GapEd
+
+1. Halaman Beranda (Home Page)
+    if(user_klik_daftarSekarang){
+        link=>mengisi_formulir_pendaftaran
+    }else if(user_klik_programKami){
+        link=>show_programKamisection
+    }else{
+        justScroll
+    }
+
+2. Halaman Admin (Admin Page)
+    2.1 admin login
+        if(admin_addMoreadmin){
+            admin_Addadmin
+        }else{
+            0
+        }
+    3.1 Cek pendaftaran calon siswa
+        if(data_masuk){
+            admin_sendMessagetoStudent
+        }else{
+            0
+        }
