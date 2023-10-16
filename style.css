@@ -1,9 +1,12 @@
+/* CSS Anda di sini */
+
 body {
   overflow: scroll;
   font-family: Poppins, sans-serif;
 }
+
+/* Bagian Header */
 .header {
-  font-family: Poppins, sans-serif;
   position: fixed;
   width: 100%;
   padding: 20px 100px;
@@ -34,8 +37,6 @@ body {
   font-weight: 700;
 }
 
-
-
 .navbar a {
   font-size: 1.15rem;
   color: white;
@@ -56,7 +57,8 @@ body {
   position: absolute;
   right: 5%;
 }
-/*responsive*/
+
+/* Responsif */
 @media (max-width: 992px) {
   .header {
     padding: 1.3rem 5%;
@@ -67,15 +69,19 @@ body {
   .icons {
     display: inline-flex;
   }
+
   .icons #close-icon {
     display: none;
   }
+
   #check:checked ~ .icons #menu-icon {
     display: none;
   }
+
   #check:checked ~ .icons #close-icon {
     display: block;
   }
+
   .navbar {
     position: absolute;
     top: 100%;
@@ -90,6 +96,7 @@ body {
   #check:checked ~ .navbar {
     height: 17.7rem;
   }
+
   .navbar a {
     display: block;
     font-size: 1.1rem;
@@ -97,11 +104,13 @@ body {
     text-align: center;
     transition: 0.3s ease;
   }
+
   #check:checked ~ .navbar a {
     transform: translateY(0);
   }
 }
 
+/* Bagian Write */
 .write {
   color: black;
   position: relative;
@@ -112,10 +121,9 @@ body {
   font-size: 4rem;
 }
 
-/*tombol*/
+/* Tombol */
 .raw-tombol {
   display: flex;
-
   justify-content: center;
   align-items: center;
 }
@@ -151,7 +159,8 @@ button {
   }
 }
 
-.tentang{
+/* Tentang */
+.tentang {
   height: 500px;
   margin-top: 150px;
 }
@@ -163,6 +172,7 @@ button {
   align-items: center;
   margin-top: 5rem;
 }
+
 .tentang h3 {
   justify-content: center;
   margin: 0;
@@ -171,6 +181,7 @@ button {
   margin-bottom: 20px;
   text-align: center;
 }
+
 .tentang p {
   justify-content: center;
   margin: 0% 15%;
@@ -188,8 +199,7 @@ button {
   cursor: pointer;
 }
 
-/*testimoni*/
-
+/* Testimoni */
 .testimoni {
   display: flex;
   padding: 40px 0px;
@@ -247,4 +257,35 @@ button {
     flex: 100%;
     max-width: 100%;
   }
+}
+
+.keunggulan-content {
+  padding: 50px 100px;
+}
+
+.keunggulan-content h2 {
+  text-align: center;
+}
+
+.keunggulan-item {
+  margin-top: 50px;
+}
+
+.keunggulan-item h3 {
+  color: #029afa;
+}
+
+.keunggulan-item p {
+  line-height: 1.6;
+}
+
+.video-container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.video-container iframe {
+  width: 100%;
+  max-width: 700px;
+  height: 400px;
 }
