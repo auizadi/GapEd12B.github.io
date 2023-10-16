@@ -6,40 +6,50 @@
     <title>GapEd Registration</title>
 
     <link rel="stylesheet" href="style.css" />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="icon" href="img/Unesa.png" >
   </head>
   <body>
     <header class="header">
-      <a href="#" class="logo"> GapEd</a>
+      <div class="cont-logo">
+        <a href="#" class="logo"> <img src="img/Unesa.png" alt="" width="50px" height="50px" /> GapEd</a>
+      </div>
+
       <!--navbar-->
-      <input type="checkbox" id="check">
+      <input type="checkbox" id="check" />
       <label for="check" class="icons">
-        <i class='bx bx-menu' id="menu-icon"></i>
-        <i class='bx bx-x' id="close-icon"></i>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <i class="bx bx-x" id="close-icon"></i>
       </label>
 
       <nav class="navbar">
-        <a href="#">Home</a>
-        <a href="#">About Us</a>
+        <a href="#sec-home">Home</a>
+        <a href="#sec-tentang">About Us</a>
         <a href="#">Program Kami</a>
         <a href="#">Formula Belajar</a>
-        <a href="#">Testimoni</a>
+        <a href="#sec-testimoni">Testimoni</a>
       </nav>
     </header>
-    <section class="write">
-      <h2>GapEd</h2>
-    </section>
     <!--akhir navbar-->
 
+    <section class="write" id="sec-home">
+      <h2>GapEd</h2>
+    </section>
+
     <!--tombol-->
-    <div class="tombol">
-      <button>Hubungi Kami</button>
-      <button>Daftar Sekarang</button>
+    <div class="raw-tombol">
+      <div class="col-tombol">
+        <button>Hubungi Kami</button>
+      </div>
+      <div class="col-tombol">
+        <button>Daftar Sekarang</button>
+      </div>
     </div>
+
     <!--akhir tombol-->
 
     <!--about us-->
-    <section class="tentang">
+    <section class="tentang" id="sec-tentang">
       <h2>About Us</h2>
 
       <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, porro.</h3>
@@ -52,49 +62,50 @@
       </p>
 
       <div class="medsos-tentang">
-        <img src="img/Unesa.png" alt="" width="30px" />
-        <img src="img/Unesa.png" alt="" width="30px" />
-        <img src="img/Unesa.png" alt="" width="30px" />
-        <img src="img/Unesa.png" alt="" width="30px" />
+        <a href=""><img src="img/Unesa.png" alt="" width="30px" /></a>
+        <a href=""><img src="img/Unesa.png" alt="" width="30px" /></a>
+        <a href=""><img src="img/Unesa.png" alt="" width="30px" /></a>
+        <a href=""><img src="img/Unesa.png" alt="" width="30px" /></a>
+        
       </div>
     </section>
 
     <!--akhir about us-->
 
     <!--Halaman Testimoni-->
+    <section id="sec-testimoni">
+      <div class="testimoni">
+        <div class="inner">
+          <h1>Testimoni</h1>
+          <div class="border"></div>
 
-    <div class="testimoni">
-      <div class="inner">
-        <h1>Testimoni</h1>
-        <div class="border"></div>
-
-        <div class="row">
-          <div class="col">
-            <div class="isitesti">
-              <img src="img/Unesa.png" alt="">
-              <div class="name">Full Name</div>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique adipisci illo, deserunt explicabo recusandae sint illum nihil eos dolorem praesentium!</p>
+          <div class="row">
+            <div class="col">
+              <div class="isitesti">
+                <img src="img/Unesa.png" alt="" />
+                <div class="name">Full Name</div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique adipisci illo, deserunt explicabo recusandae sint illum nihil eos dolorem praesentium!</p>
+              </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="isitesti">
-              <img src="img/Unesa.png" alt="">
-              <div class="name">Full Name</div>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique adipisci illo, deserunt explicabo recusandae sint illum nihil eos dolorem praesentium!</p>
+            <div class="col">
+              <div class="isitesti">
+                <img src="img/Unesa.png" alt="" />
+                <div class="name">Full Name</div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique adipisci illo, deserunt explicabo recusandae sint illum nihil eos dolorem praesentium!</p>
+              </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="isitesti">
-              <img src="img/Unesa.png" alt="">
-              <div class="name">Full Name</div>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique adipisci illo, deserunt explicabo recusandae sint illum nihil eos dolorem praesentium!</p>
+            <div class="col">
+              <div class="isitesti">
+                <img src="img/Unesa.png" alt="" />
+                <div class="name">Full Name</div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique adipisci illo, deserunt explicabo recusandae sint illum nihil eos dolorem praesentium!</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    
     <!--Akhir Halaman Testimoni-->
   </body>
 </html>
