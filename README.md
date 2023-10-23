@@ -5,17 +5,10 @@
     <div class="des">
       <p>
 
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, odit impedit quam adipisci officiis sed. Itaque neque debitis tenetur eveniet, facilis ipsum temporibus rem fugit nemo quibusdam accusantium facere est quis
-        voluptatibus aperiam dolorum saepe harum. Molestias quo minima magnam sequi perspiciatis deleniti doloremque modi, ad laboriosam cumque iusto qui officia temporibus quas alias exercitationem nemo! Laudantium similique facere ab aut
-        facilis blanditiis, labore optio provident reprehenderit delectus inventore quas perferendis ipsum et explicabo, recusandae assumenda excepturi voluptatem atque aperiam reiciendis commodi qui praesentium molestias? Numquam rerum,
-        officia, laudantium saepe dignissimos minus necessitatibus iste quod eius facere doloribus dolores nemo.
-      </p>
-    </div>
-   
-    
+
    GapEd Registration merupakan website yang digunakan untuk melakukan pendaftaran 
 
-       Ketika user ingin mendaftar bimbingan belajar GapEd 
+Ketika user ingin mendaftar bimbingan belajar GapEd 
 melalui website pendaftaran maka yang pertama user 
 tentunya mengunjungi laman GapEd Registration 
 kemudian user memilih program, ketika user memilih 
@@ -44,7 +37,7 @@ pendaftaran maka user tidak terdaftar.
 
     
    
-Penjelasan Website
+# Penjelasan Website
 
 GapEd Registration merupakan website yang digunakan untuk melakukan pendaftaran 
 
