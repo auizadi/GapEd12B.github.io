@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content {
+  display: flex; /* Menggunakan flexbox untuk mengatur elemen ke dalam satu baris */
+  align-items: center; /* Mengatur elemen secara vertikal di tengah */
+}
+
+.text {
+  flex: 1; /* Memungkinkan teks untuk mengisi sebagian besar ruang yang tersedia */
+  padding: 20px; /* Menambahkan ruang padding agar teks tidak terlalu dekat dengan gambar */
+}
+
+.image {
+  flex: 1; /* Memungkinkan gambar untuk mengisi sebagian besar ruang yang tersedia */
+}
+
+/* Gaya tambahan sesuai kebutuhan */
+h1 {
+  color: #333; /* Warna teks judul */
+}
+
+p {
+  color: #666; /* Warna teks paragraf */
+}
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="text">
+          <h1>Tulisan Disamping Gambar</h1>
+          <p>Ini adalah contoh teks yang berada di samping gambar.</p>
+        </div>
+        <div class="image">
+          <img src="img/page.png" alt="" width="27%">
+        </div>
+      </div>
+      
+</body>
+</html>
