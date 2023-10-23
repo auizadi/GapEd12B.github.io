@@ -1,8 +1,9 @@
-/* CSS Anda di sini */
-
 body {
-  overflow: scroll;
   font-family: Poppins, sans-serif;
+  overflow: scroll;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 /* Bagian Header */
@@ -28,13 +29,6 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
-}
-
-.logo {
-  font-size: 32px;
-  color: white;
-  text-decoration: none;
-  font-weight: 700;
 }
 
 .navbar a {
@@ -110,15 +104,37 @@ body {
   }
 }
 
-/* Bagian Write */
-.write {
-  color: black;
-  position: relative;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  margin-top: 7rem;
+.gaped {
+  top: 20%;
+  position: absolute;
+  left: 60%;
+}
+
+.p-gaped {
+  font-size: 15px;
+}
+
+.gaped h1 {
   font-size: 4rem;
+  margin-top: -20px;
+  margin-bottom: -10px;
+}
+
+.gaped p {
+  text-align: justify;
+  margin-right: 50px;
+}
+
+.img-gap {
+  position: absolute;
+  top: 20%;
+  margin-left: 8%;
+}
+
+.home {
+  background-color: #84caf5;
+  padding: 20px;
+  width: 100%;
 }
 
 /* Tombol */
@@ -126,6 +142,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 35%;
 }
 
 .col-tombol {
@@ -145,6 +162,12 @@ button {
   font-size: medium;
   border: none;
   border-radius: 55px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #029afa;
+  background-color: white;
 }
 
 @media screen and (max-width: 768px) {
@@ -158,8 +181,6 @@ button {
     align-items: center;
   }
 }
-
-
 
 /* Tentang */
 
@@ -200,6 +221,7 @@ button {
   display: flex;
   padding: 0px 40%;
   cursor: pointer;
+  gap: 30%;
 }
 
 /* Testimoni */
@@ -241,11 +263,13 @@ button {
 .isitesti {
   padding: 30px;
   background: #029afa;
+  max-height: 80%;
+  color: white;
 }
 
 .isitesti img {
-  width: 100px;
   height: 100px;
+  width: 100px;
   border-radius: 50%;
 }
 
@@ -279,7 +303,6 @@ button {
 .go-top-btn img {
   width: 20px;
   height: 20px;
-  
 }
 
 .keunggulan-content {
@@ -322,9 +345,98 @@ h1 {
   flex-direction: row;
   justify-content: space-around;
 }
-.belajar, .berlatih, .bertanding {
+.belajar,
+.berlatih,
+.bertanding {
   width: 30%;
   padding: 1em;
   border: 1px solid black;
 }
 
+.formula{
+  margin-bottom: 250px;
+  
+}
+
+.formula h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+/*footer*/
+footer {
+  width: 100%;
+  padding: 5px;
+  background-color: #029afa;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.grid-foot {
+  display: grid;
+  gap: 20%;
+
+  padding: 20px;
+  margin-top: 20px;
+  left: 0;
+  bottom: 0;
+}
+
+.grid-item {
+  text-align: center;
+  padding: 20px;
+}
+
+.logo-foot {
+  grid-column: 1 / 4;
+  font-size: 20px;
+  color: white;
+}
+
+.copyright {
+  grid-column: 1 / 4;
+  background-color: white;
+  width: 100%;
+}
+
+.flex-follow img {
+  padding: 10px;
+  color: white;
+}
+
+.flex-follow h4 {
+  color: white;
+}
+
+.flex-kontak {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.flex-kontak a {
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+  text-align: justify;
+}
+.flex-kontak h4 {
+  color: white;
+}
+
+.flex-lokasi {
+  display: flex;
+  text-align: justify;
+  flex-direction: column;
+}
+
+.flex-lokasi a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.lokasi h4 {
+  color: white;
+}
