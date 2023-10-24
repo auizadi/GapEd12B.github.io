@@ -305,37 +305,6 @@ button:hover {
   height: 20px;
 }
 
-.keunggulan-content {
-  padding: 50px 100px;
-}
-
-.keunggulan-content h2 {
-  text-align: center;
-}
-
-.keunggulan-item {
-  margin-top: 50px;
-}
-
-.keunggulan-item h3 {
-  color: #029afa;
-}
-
-.keunggulan-item p {
-  line-height: 1.6;
-}
-
-.video-container {
-  margin-top: 50px;
-  text-align: center;
-}
-
-.video-container iframe {
-  width: 100%;
-  max-width: 700px;
-  height: 400px;
-}
-
 h1 {
   font-size: 2em;
   font-weight: bold;
@@ -534,3 +503,5 @@ footer {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+

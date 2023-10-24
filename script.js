@@ -18,7 +18,7 @@ goTopBtn.addEventListener('click', () =>
     })
 })
 
-// script.js
+
 
 var slideIndex = 1;
 showSlides(slideIndex);
