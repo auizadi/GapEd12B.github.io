@@ -1,4 +1,4 @@
-## sadas
+
 
 ![gambar](img/dokumen/SRS_kelompok_12%20Gapyear%20Education.docx_page-0001.jpg)
 
@@ -53,3 +53,4 @@
 <img src="img/dokumen/SRS_kelompok_12%20Gapyear%20Education.docx_page-0016.jpg">
 
 <br>
+
